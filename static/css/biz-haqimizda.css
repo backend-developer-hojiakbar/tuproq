@@ -1,0 +1,147 @@
+.imgnavbar{
+    background-image: url(../img/Background\ banner\ video.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 670px;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    font-size: medium;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.77) 99.99%, rgba(252, 252, 252, 0.00) 100%);
+    background-blend-mode: screen;
+    height: 101px;
+    flex-shrink: 0;
+}
+.navbar-item > a{
+    color: black;
+    text-decoration: none;
+}
+.navbar-img > img{
+    width: 63px;
+    flex-shrink: 0;
+    height: 65px;
+    margin-left: 20px;
+}
+.navbar-button > button{
+    border: 1px solid white;
+    border-radius: 50%;
+    width:72; 
+    height:72; 
+    fill:none;
+}
+@media (max-width: 1200px){
+    .imgnavbar{
+        height: 600px;
+    }
+}
+@media (max-width: 992px){
+    .imgnavbar{
+        height: 500px;
+    }
+}
+@media (max-width: 768px){
+    .imgnavbar{
+        height: 380px;
+    }
+}
+@media (max-width: 576px){
+    .imgnavbar{
+        height: 270px;
+    }
+}
+.orta > img{
+    width: 15px;
+}
+.orta1 > h5{
+    color: #0B6344;
+    padding-top: 20px;
+}
+.orta > h5{
+    color: #0B6344;
+    padding-top: 20px;
+}
+.orta-img{
+    width: 10px;
+    height: 250px;
+}
+.yaqinda-button{
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #0B6344
+}.yaqinda-text > h5{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.yaqinda-img1{
+    width: 40px;
+}
+.yaqin{
+    margin-left: 250px;
+}
+.Footer{
+    background-color: #1BAE7C;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.form-control{
+    width: 200px;
+    margin-top: 20px;
+    background-color: #1BAE7C;
+    color: white;
+}
+.btn{
+    background-color: #FFFFFF;
+    color:#22A678;
+    border: 1px solid #FFFFFF;
+    margin-top: 20px;
+}
+.form-control:hover{
+    background-color: #1BAE7C;
+    color: #FFFFFF;
+}
+.footer-bacar > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+}
+.footer-bacar{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.footer-says{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.footer-says > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+}
+.footer-says > p{
+    color: #FFFFFF;
+}
+.footer-says > h1{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.lokation{
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.lokation > iframe{
+    border-radius: 20px;
+}
+.lokation > h1{
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.lokation-icon > i{
+    color: #FFFFFF;
+    width: 30px;
+    font-size: 25px;
+}

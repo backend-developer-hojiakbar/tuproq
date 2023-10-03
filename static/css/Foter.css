@@ -1,0 +1,64 @@
+.Footer{
+    background-color: #1BAE7C;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.form-control{
+    width: 200px;
+    margin-top: 20px;
+    background-color: #1BAE7C;
+    color: white;
+}
+.btn{
+    background-color: #FFFFFF;
+    color:#22A678;
+    border: 1px solid #FFFFFF;
+    margin-top: 20px;
+}
+.form-control:hover{
+    background-color: #1BAE7C;
+    color: #FFFFFF;
+}
+.footer-bacar > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+}
+.footer-bacar{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.footer-says{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.footer-says > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+}
+.footer-says > p{
+    color: #FFFFFF;
+}
+.footer-says > h1{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.lokation{
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.lokation > iframe{
+    border-radius: 20px;
+}
+.lokation > h1{
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.lokation-icon > i{
+    color: #FFFFFF;
+    width: 30px;
+    font-size: 25px;
+}

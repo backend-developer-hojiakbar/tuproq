@@ -1,0 +1,258 @@
+@import url('./fonts.css');
+.imgnavbar{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 670px;
+    background-repeat: no-repeat;
+}
+@media (max-width: 1200px){
+    .imgnavbar{
+        height: 600px;
+        width: auto;
+    }
+}
+@media (max-width: 992px){
+    .imgnavbar{
+        height: 500px;
+        width: auto;
+    }
+}
+@media (max-width: 768px){
+    .imgnavbar{
+        height: 380px;
+        width: auto;
+    }
+}
+@media (max-width: 576px){
+    .imgnavbar{
+        height: 270px;
+        width: auto;
+    }
+}
+.navbar{
+    display: flex;
+    font-size: medium;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.77) 99.99%, rgba(252, 252, 252, 0.00) 100%);
+    background-blend-mode: screen;
+    height: 101px;
+    flex-shrink: 0;
+}
+.navbar-item > a{
+    color: black;
+    text-decoration: none;
+}
+.navbar-img > img{
+    width: 63px;
+    flex-shrink: 0;
+    height: 65px;
+    margin-left: 20px;
+}
+.navbar-button > button{
+    border: 1px solid white;
+    border-radius: 50%;
+    width:72; 
+    height:72; 
+    fill:none;
+}
+.text-one{
+    display: flex;
+}
+.texth5{
+    color: #FFF;
+    text-align: justify; 
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 200px;
+}
+.img-button{
+    display: flex;
+    margin-top: -50px;
+    margin-left: 80px;
+}
+.Asosiy-opage > h1{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    margin-top: 50px;
+}
+.img-page{
+    display: flex;
+}
+.img-page1{
+    border-radius: 25px;
+    background: #1BAE7C;
+    box-shadow: 0px 8px 34px 0px rgba(40, 44, 109, 0.31);
+    width: 270px;
+    height: 186px;
+    flex-shrink: 0;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.img-page1 > img{
+    border-radius: 40px;
+    border: 1px solid #22A678;
+    background: #FFF;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+    width: 119px;
+    height: 119px;
+    flex-shrink: 0;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+.img-gis{
+    width: 100px;
+}
+.img-page1 > h5{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 30px;
+}
+.page{
+    display: flex;
+    margin-top: 50px;
+}
+.page1{
+    text-align: center;
+}
+.page2{
+    text-align: center;
+}
+.page2 > h4{
+    margin-top: 23px;
+}
+.labar-cer{
+    display: flex;
+}
+.certi{
+    text-align: center;
+    margin-top: 50px;
+}
+.certi > button{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #22A678;
+}
+.certi > h5{
+    margin-top: 25px;
+}
+.oztur{
+    display: flex;
+    margin-top: 100px;
+}
+.figma > img{
+    width: 543px;
+    height: 305px;
+    flex-shrink: 0;
+}
+.figma > h5{
+    color: #000;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+.img-Figma{
+    display: flex;
+    margin-top: 50px;
+}
+.figma{
+    margin-left: 70px;
+}
+.figma > a{
+    color: #000;
+    padding-left: 200px;
+    font-size: 20px;
+}
+.figma1 > img{
+    width: 453px;
+    height: 620px;
+    flex-shrink: 0;
+}
+.figma1 > a{
+    color: #000;
+    padding-left: 200px;
+    font-size: 20px;
+}
+.figma1{
+    margin-left: 150px;
+}
+.hamkor{
+    color: #1BAE7C;
+}
+.Footer{
+    background-color: #1BAE7C;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.form-control{
+    width: 200px;
+    margin-top: 20px;
+    background-color: #1BAE7C;
+    color: white;
+}
+.btn{
+    background-color: #FFFFFF;
+    color:#22A678;
+    border: 1px solid #FFFFFF;
+    margin-top: 20px;
+}
+.form-control:hover{
+    background-color: #1BAE7C;
+    color: #FFFFFF;
+}
+.footer-bacar > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+}
+.footer-bacar{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.footer-says{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.footer-says > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+}
+.footer-says > p{
+    color: #FFFFFF;
+}
+.footer-says > h1{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.lokation{
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.lokation > iframe{
+    border-radius: 20px;
+}
+.lokation > h1{
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.lokation-icon > i{
+    color: #FFFFFF;
+    width: 30px;
+    font-size: 25px;
+}

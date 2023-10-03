@@ -1,0 +1,145 @@
+@import url('./fonts.css');
+.imgnavbar{
+    background-image: url(../img/bgno.png);
+    width: 100%;
+    height: 300px;
+}
+.navbar{
+    display: flex;
+    font-size: medium;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.77) 99.99%, rgba(252, 252, 252, 0.00) 100%);
+    background-blend-mode: screen;
+    height: 101px;
+    flex-shrink: 0;
+}
+.navbar-item > a{
+    color: black;
+    text-decoration: none;
+}
+.navbar-img > img{
+    width: 63px;
+    flex-shrink: 0;
+    height: 65px;
+    margin-left: 20px;
+}
+.navbar-button > button{
+    border: 1px solid white;
+    border-radius: 50%;
+    width:72; 
+    height:72; 
+    fill:none;
+}
+.container{
+    border: 1px solid #22A678;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+.container1{
+    border: 1px solid #22A678;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.cont{
+    display: flex;
+}
+.cont-img > img{
+    width: 320px;
+    height: 317px;
+    top: 125px;
+    left: 17px;
+}
+.cont-text > h4{
+    padding-top: 15px;
+}
+.a-text{
+    color: #000;
+}
+.cont-img1 > img{
+    width: 260px;
+    height: 317px;
+    top: 692px;
+    left: 17px;
+}
+.cont-img2 > img{
+    width: 260px;
+    height: 317px;
+    top: 1259px;
+    left: 17px;
+}
+.cont-img3 > img{
+    width: 260px;
+    height: 317px;
+    top: 1259px;
+    left: 17px;
+}
+.cont-text1{
+    padding-left: 50px;
+}
+.cont-text{
+    padding-left: 100px;
+}
+.Footer{
+    background-color: #1BAE7C;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 100px;
+}
+.form-control{
+    width: 200px;
+    margin-top: 20px;
+    background-color: #1BAE7C;
+    color: white;
+}
+.btn{
+    background-color: #FFFFFF;
+    color:#22A678;
+    border: 1px solid #FFFFFF;
+    margin-top: 20px;
+}
+.form-control:hover{
+    background-color: #1BAE7C;
+    color: #FFFFFF;
+}
+.footer-bacar > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+}
+.footer-bacar{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.footer-says{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.footer-says > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+}
+.footer-says > p{
+    color: #FFFFFF;
+}
+.footer-says > h1{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.lokation{
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.lokation > iframe{
+    border-radius: 20px;
+}
+.lokation > h1{
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.lokation-icon > i{
+    color: #FFFFFF;
+    width: 30px;
+    font-size: 25px;
+}

@@ -1,0 +1,83 @@
+<h1> Foydalanuvchi malumotlarni o'zgartirish</h1>
+<form method="POST" enctype="multipart/form-data"> {% csrf_token %}
+    {{ user_form.as_p}}
+    {{ profile_form.as_p }}
+    <button type="submit"> O'zgartirish</button>
+
+
+</form>
+<a href="{% url 'profile' %}"> <button type="submit"> Profilga qaytish</button></a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .container {
+            border: 2px solid whitesmoke;
+            width: 70%;
+            padding: 20px;
+            background-color: antiquewhite;
+
+        }
+       .flex-container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+       }
+       .flex-item {
+            width: 50%;
+            height: 100%;
+            margin-top: 80px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Profilni tahrirlash</h1>
+        </div>
+        <div class="flex-container">
+            <div class="flex-item">
+                <p>To'liq ism sharifi </p>
+                <div class="input-group mb-3 w-75">
+                    <input type="text" class="form-control"  aria-describedby="basic-addon1">
+                </div>
+
+                <p class="mt-5">Paroli</p>
+                <div class="input-group mb-3 w-75">
+                    <input type="password" class="form-control"  aria-describedby="basic-addon2">
+                </div>
+
+                <p class="mt-5">Email manzili</p>
+                <div class="input-group mb-3 w-75">
+                    <input type="email" class="form-control"  aria-describedby="basic-addon3">
+                </div>
+            </div>
+            <div class="flex-item">
+                <p>Foydalanuvchi nomi</p>
+                <div class="input-group mb-3 w-75">
+                    <input type="text" class="form-control"  aria-describedby="basic-addon1">
+                </div>
+
+                <p class="mt-5">Parolni tasqidlang</p>
+                <div class="input-group mb-3 w-75">
+                    <input type="password" class="form-control"  aria-describedby="basic-addon2">
+                </div>
+
+                <p class="mt-5">Email manzilni tasqidlang</p>
+                <div class="input-group mb-3 w-75">
+                    <input type="email" class="form-control"  aria-describedby="basic-addon3">
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button type="button" class="btn btn-warning btn-lg mt-4">Update info</button>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
